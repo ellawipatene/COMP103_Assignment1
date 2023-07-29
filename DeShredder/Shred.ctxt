@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Shred
+comment0.text=\n\ Shred\ stores\ information\ about\ a\ shred.\n\ All\ shreds\ are\ 40x40\ png\ images.\n
+comment1.params=dir\ id
+comment1.target=Shred(java.nio.file.Path,\ int)
+comment1.text=\ Construct\ a\ new\ Shred\ object.\n\ \ Parameters\ are\ the\ name\ of\ the\ directory\ and\ the\ id\ of\ the\ image\n
+comment2.params=left\ top
+comment2.target=void\ draw(double,\ double)
+comment2.text=\n\ Draw\ the\ shred\ (no\ border)\ at\ the\ specified\ coordinates\n
+comment3.params=left\ top
+comment3.target=void\ drawWithBorder(double,\ double)
+comment3.text=\n\ Draw\ the\ shred\ with\ a\ border\ at\ the\ specified\ coordinates\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=java.lang.String\ getFileName()
+comment6.params=
+comment6.target=void\ neighboursTrue()
+comment7.params=
+comment7.target=void\ neighboursFalse()
+numComments=8

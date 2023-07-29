@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Position
+comment0.text=\ \n\ \ A\ pair\ of\ row\ and\ column\ representing\ the\ coordinates\ of\ a\ cell\ in\ the\ warehouse.\n\ \ Has\ a\ method\ to\ return\ the\ next\ Position\ in\ a\ given\ direction.\n\ \ Because\ the\ fields\ are\ final\ (can't\ be\ changed),\ it\ is\ safe\ to\ make\n\ \ the\ fields\ public.\n\ \ If\ \ pos\ is\ a\ variable\ containing\ a\ Position,\ then\ pos.row\ and\ pos.col\n\ will\ be\ the\ values\ of\ the\ row\ and\ the\ col\ in\ the\ Position.\n
+comment1.params=row\ col
+comment1.target=Position(int,\ int)
+comment1.text=\n\ Constructor\n
+comment2.params=direction
+comment2.target=Position\ next(java.lang.String)
+comment2.text=\n\ Return\ the\ next\ position\ in\ the\ specified\ direction\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Return\ a\ string\ with\ the\ values\ of\ the\ fields.\n
+numComments=4

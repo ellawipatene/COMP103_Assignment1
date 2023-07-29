@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ActionRecord
+comment0.text=\ \n\ Object\ containing\ the\ record\ of\ an\ action\ (move\ or\ push)\ in\n\ a\ given\ direction.\n\ Used\ for\ the\ Undo\ process.\n\ Every\ move\ or\ push\ should\ put\ an\ ActionRecord\ on\ the\ history\ stack\n\ Undo\ should\ pop\ an\ ActionRecord\ off\ the\ history\ stack\ and\n\ \ undo\ the\ recorded\ action.\n
+comment1.params=action\ dir
+comment1.target=ActionRecord(java.lang.String,\ java.lang.String)
+comment1.text=\n\ Constructor\n
+comment2.params=
+comment2.target=boolean\ isPush()
+comment2.text=\n\ Is\ the\ recorded\ action\ a\ push?\n
+comment3.params=
+comment3.target=boolean\ isMove()
+comment3.text=\n\ Is\ the\ recorded\ action\ a\ move?\n
+comment4.params=
+comment4.target=java.lang.String\ direction()
+comment4.text=\n\ Return\ the\ direction\ of\ the\ recorded\ action\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Return\ a\ String\ describing\ the\ recorded\ action\n
+numComments=6
